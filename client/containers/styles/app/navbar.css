@@ -1,0 +1,62 @@
+.nav_bar {
+    display: block;
+    padding: 0;
+    margin: 0;
+    height: 48px;
+    background-color: $color-blue;
+    white-space: nowrap;
+    border-radius: 0;
+
+    &.nav_bar_auth {
+        max-width: 1010px;
+        min-width: 300px;
+        margin: 0 auto;
+        border: 0;
+    }
+}
+
+.nav_item {
+    &.nav_item_context {
+        float: right;
+    }
+
+    &.nav_item_brand {
+        display: block;
+    }
+
+    &.nav_item_peer {
+        display: block;
+        overflow: hidden;
+    }
+}
+
+.nav_section_main_menu {
+    float: left;
+    width: 31%;
+}
+
+.nav_section_context_menu {
+    float: right;
+    width: 69%;
+}
+
+.nav_peer_info_name {
+    margin-right: 5px;
+}
+
+.nav_peer_info_meta {
+    color: lighten($color-blue, 20%);
+}
+
+.nav_action {
+    display: block;
+    padding: 16px 18px;
+    line-height: 16px;
+    cursor: pointer;
+    color: #fff;
+    height: 48px;
+
+    &:hover {
+        background-color: darken($color-blue, 5%)
+    }
+}

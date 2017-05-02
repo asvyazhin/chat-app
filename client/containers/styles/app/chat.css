@@ -1,0 +1,13 @@
+.chat_page_wrap {
+    background: #fff;
+    max-width: 1010px;
+    min-width: 300px;
+    margin: 0 auto;
+    border: 0;
+    overflow: hidden;
+}
+
+.talks_list_wrap {
+    float: left;
+    width: 31%;
+}

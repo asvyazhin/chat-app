@@ -1,0 +1,9 @@
+.head_bg_login {
+    background-color: $color-blue;
+    height: 180px;
+}
+
+.head_login {
+    background: $color-blue;
+    height: 60px;
+}

@@ -1,0 +1,8 @@
+.logo_small {
+    width: 42px;
+    height: 42px;
+    /*background-image: url('../../img/icons/general_icons@2x.png');*/
+    background-repeat: no-repeat;
+    background-position: -2px -54px;
+    background-size: 46px 98px;
+}

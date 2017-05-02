@@ -1,0 +1,479 @@
+.chat_page_wrap {
+    background: #fff;
+    max-width: 1010px;
+    min-width: 300px;
+    margin: 0 auto;
+    border: 0;
+    overflow: hidden;
+}
+.talks_list_wrap {
+    float: left;
+    width: 31%;
+}
+.footer_wrap_login {
+    margin: 1.5em 0 0;
+    text-align: center;
+    font-size: 0.9em;
+    color: #777;
+}
+.form_wrap_login {
+    background: #fff;
+    padding: 30px 40px;
+}
+.form_head_description_login {
+    color: #999;
+    margin: .9em 0 1.8em;
+    font-size: .9em;
+    line-height: 1.6em;
+}
+.head_bg_login {
+    background-color: #5682a3;
+    height: 180px;
+}
+.head_login {
+    background: #5682a3;
+    height: 60px;
+}
+.icon_context_menu {
+}
+.icon_context_menu .icon_bar {
+    display: block;
+    background-color: #fff;
+    width: 4px;
+    height: 4px;
+    border-radius: 2px;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+.icon_context_menu .icon_bar + .icon_bar {
+    margin-top: 2px;
+}
+.icon_hamburger {
+    display: inline-block;
+    width: 18px;
+    margin: 0 40px 0 0;
+}
+.dropdown.open .icon_hamburger .icon_bar:nth-child(1) {
+    -webkit-transform: translate3d(0, 6px, 0) rotate(45deg);
+    transform: translate3d(0, 6px, 0) rotate(45deg);
+}
+.dropdown.open .icon_hamburger .icon_bar:nth-child(2) {
+    opacity: 0;
+}
+.dropdown.open .icon_hamburger .icon_bar:nth-child(3) {
+    -webkit-transform: translate3d(0, -6px, 0) rotate(-45deg);
+    transform: translate3d(0, -6px, 0) rotate(-45deg);
+}
+.icon_hamburger .icon_bar {
+    background: #fff;
+    display: block;
+    height: 2px;
+    margin: 0;
+    opacity: 1;
+    -webkit-transition: -webkit-transform 0.1s ease-in;
+    transition: -webkit-transform 0.1s ease-in;
+    -o-transition: -o-transform 0.1s ease-in;
+    transition: transform 0.1s ease-in;
+    transition: transform 0.1s ease-in, -webkit-transform 0.1s ease-in, -o-transform 0.1s ease-in;
+    -webkit-transform-origin: 50% 50%;
+         -o-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+}
+.icon_hamburger .icon_bar:nth-child(2) {
+    margin-bottom: 4px;
+    margin-top: 4px;
+}
+.input_text_label {
+    font-weight: normal;
+    display: block;
+    color: #999;
+    margin: 0;
+    padding: 0;
+    z-index: 1;
+}
+.input_group {
+    height: 3.125em;
+}
+.form_group .input_text_label {
+    cursor: pointer;
+    pointer-events: none;
+    -webkit-transform-origin: left center;
+         -o-transform-origin: left center;
+            transform-origin: left center;
+    -webkit-transform: translate3d(0, 1.9em, 0);
+            transform: translate3d(0, 1.9em, 0);
+    -webkit-transition: all .15s cubic-bezier(.35, 0, .25, 1);
+    -o-transition: all .15s cubic-bezier(.35, 0, .25, 1);
+    transition: all .15s cubic-bezier(.35, 0, .25, 1);
+}
+.form_group.has_value .input_text_label {
+    -webkit-transform: scale(.9);
+         -o-transform: scale(.9);
+            transform: scale(.9);
+}
+.form_group.has_error .input_text_label {
+    color: red;
+}
+.form_group.has_error .form-control {
+    border-color: red;
+}
+.form_group.checkbox_login_remember {
+    padding-top: 1em;
+}
+.form_error {
+    font-size: .85em;
+    color: red;
+}
+.checkbox_group input[type="checkbox"] {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+    visibility: hidden;
+}
+.input_checkbox_label {
+    cursor: pointer;
+}
+.input_checkbox_icon {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    vertical-align: top;
+    margin: 0 .6em 0 0;
+    /*background-image: url('../../img/icons/general_icons@2x.png');*/
+    background-repeat: no-repeat;
+    background-position: -2px -28px;
+    -webkit-background-size: 46px 98px;
+            background-size: 46px 98px;
+    vertical-align: top;
+}
+input[type="checkbox"]:checked + .input_checkbox_label .input_checkbox_icon {
+    background-position: -2px -2px;
+}
+.input_checkbox_text {
+    font-weight: normal;
+    vertical-align: top;
+    line-height: 1.8em;
+}
+.logo_small {
+    width: 42px;
+    height: 42px;
+    /*background-image: url('../../img/icons/general_icons@2x.png');*/
+    background-repeat: no-repeat;
+    background-position: -2px -54px;
+    -webkit-background-size: 46px 98px;
+            background-size: 46px 98px;
+}
+.nav_bar {
+    display: block;
+    padding: 0;
+    margin: 0;
+    height: 48px;
+    background-color: #5682a3;
+    white-space: nowrap;
+    border-radius: 0
+}
+.nav_bar.nav_bar_auth {
+    max-width: 1010px;
+    min-width: 300px;
+    margin: 0 auto;
+    border: 0;
+}
+.nav_item {
+}
+.nav_item.nav_item_context {
+    float: right;
+}
+.nav_item.nav_item_brand {
+    display: block;
+}
+.nav_item.nav_item_peer {
+    display: block;
+    overflow: hidden;
+}
+.nav_section_main_menu {
+    float: left;
+    width: 31%;
+}
+.nav_section_context_menu {
+    float: right;
+    width: 69%;
+}
+.nav_peer_info_name {
+    margin-right: 5px;
+}
+.nav_peer_info_meta {
+    color: lighten(#5682a3, 20%);
+}
+.nav_action {
+    display: block;
+    padding: 16px 18px;
+    line-height: 16px;
+    cursor: pointer;
+    color: #fff;
+    height: 48px
+}
+.nav_action:hover {
+    background-color: darken(#5682a3, 5%);
+}
+.page_login {
+    margin: -130px auto 90px;
+    max-width: 400px;
+}
+.page {
+    background-color: red;
+}
+.dropdown-menu {
+    border-radius: 0;
+}
+.btn {
+    display: inline-block;
+    margin: 0;
+    font-size: 1em;
+    line-height: 1.3em;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+    border-radius: 2px;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    text-transform: uppercase;
+    text-decoration: none!important;
+    border: 0;
+    overflow: hidden;
+    cursor: pointer;
+    padding: 10px 16px;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    outline: 0
+}
+.btn:focus, .btn:active {
+    -webkit-box-shadow: none !important;
+            box-shadow: none !important;
+    outline: 0 !important;
+}
+.btn.btn_default {
+    background-color: #5682a3;
+    color: #fff;
+}
+.btn.btn_default:hover, .btn.btn_default:focus {
+    background-color: darken(#5682a3, 5%);
+}
+.btn.btn_air {
+    background: none;
+    color: #5682a3;
+    font-weight: 700;
+}
+.form_group {
+    padding: 0;
+    margin: 0 0 1.5em;
+}
+.form-control {
+    display: inline-block;
+    padding: .2em 0;
+    margin: .2em 0 0;
+    background: #fff;
+    height: auto;
+    font-size: 1em;
+    font-weight: normal;
+    border-radius: 0;
+    border: 0;
+    border-bottom: 1px solid #d9dbde;
+    -webkit-transition: border-color ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s;
+    transition: border-color ease-in-out .15s;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    outline: 0
+}
+.form-control:focus {
+    border-color: #5682a3;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    outline: 0;
+}
+.dropdown-menu.dropdown_menu_top_nav {
+    display: block;
+    visibility: hidden;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    -webkit-transition: opacity 100ms linear, top 100ms linear, visibility 100ms linear;
+    -o-transition: opacity 100ms linear, top 100ms linear, visibility 100ms linear;
+    transition: opacity 100ms linear, top 100ms linear, visibility 100ms linear;
+}
+.dropdown.open .dropdown-menu.dropdown_menu_top_nav {
+    visibility: visible;
+    opacity: 1;
+    -webkit-filter: none;
+            filter: none;
+    top: 48px;
+    pointer-events: auto;
+}
+.dropdown-menu.dropdown_menu_top_nav.dropdown-menu {
+    top: 58px;
+}
+.talks_list_wrap {
+    
+}
+.talks_list {
+    
+}
+.talk_wrap {
+    padding: 0;
+    margin: 0;
+}
+.talk_info {
+    padding: 7px 16px;
+    border-radius: none;
+    overflow: hidden;
+    word-wrap: break-word;
+    cursor: pointer;
+}
+.talk_info .talk_date {
+    color: #b3b3b3;
+    font-size: .85em;
+}
+.talk_info .talk_photo {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.talk_info div.talk_photo {
+    margin-right: 15px;
+}
+.talk_info .talk_message_wrap {
+}
+.talk_info .talk_message_peer {
+}
+.talk_info .talk_message {
+    margin-top: 5px;
+    margin-right: 30px;
+    font-size: .85em;
+    color: grey;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.im_wrap {
+    float: right;
+    width: 69%;
+}
+.im_history_message_wrap_short .im_message_body {
+    margin-left: 57px;
+}
+.im_service_message_wrap {
+    text-align: center;
+}
+.im_service_message {
+    display: block;
+    min-width: 10px;
+    padding: 4px 7px;
+    line-height: 1.4;
+    color: #999;
+    text-align: center;
+    border-radius: 10px;
+    margin: 5px 0;
+}
+.im_message_wrap {
+    max-width: 560px;
+    padding: 0 15px 0 15px;
+    margin: 0 auto;
+}
+.im_message_wrap .im_photo {
+    margin: 0 15px 0 0;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.im_message_wrap .im_message_content_wrap {
+    margin: 6px 10px 6px 16px;
+}
+.im_message_wrap .im_message_date {
+    color: #adadad;
+    font-size: .85em;
+    padding: 0 0 20px 10px;
+}
+.im_message_wrap .im_message_body {
+    display: block;
+    overflow: hidden;
+}
+.im_message_wrap .im_message_author_wrap {
+    margin: 1px 0 4px;
+    display: inline-block;
+    color: #3a6d99;
+    font-weight: 700;
+}
+.im_message_wrap .im_message_text {
+    word-wrap: break-word;
+    line-height: 150%;
+    white-space: pre-wrap;
+}
+.im_send_panel_wrap {
+    position: relative;
+    max-width: 554px;
+    margin: 0 auto;
+    padding: 10px 15px 21px;
+}
+.im_peer_photo {
+    width: 52px;
+    height: 52px;
+    line-height: 52px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+a.im_peer_photo {
+    cursor: pointer;
+    height: 55px;
+}
+a.im_peer_photo_to {
+    margin-left: 20px;
+}
+a.im_peer_photo_from {
+    margin-right: 20px;
+}
+.im_send_form_wrap {
+    height: 95px;
+}
+.im_send_form {
+    position: absolute;
+    margin: 0 auto;
+    max-width: 382px;
+    left: 70px;
+    right: 72px;
+}
+.composer_rich_textarea {
+    overflow: none;
+    overflow-y: scroll;
+    border-radius: 0;
+    border: 0;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    outline: none;
+    padding: 1px 0;
+    position: relative;
+    margin: 0;
+    min-height: 50px;
+    line-height: 20px;
+    height: auto;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+textarea.im_message_field {
+    font-size: 12px;
+    padding: 6px;
+    min-height: 50px;
+    height: 50px;
+    resize: none;
+}
+.im_submit {
+    float: right;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+html, body {
+    font-size: 12px/18px;
+    background: red;
+}

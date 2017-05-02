@@ -1,0 +1,72 @@
+.dropdown-menu {
+    border-radius: 0;
+}
+
+.btn {
+    display: inline-block;
+    margin: 0;
+    font-size: 1em;
+    line-height: 1.3em;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+    border-radius: 2px;
+    user-select: none;
+    text-transform: uppercase;
+    text-decoration: none!important;
+    border: 0;
+    overflow: hidden;
+    cursor: pointer;
+    padding: 10px 16px;
+    box-shadow: none;
+    outline: 0;
+
+    &:focus,
+    &:active {
+        box-shadow: none !important;
+        outline: 0 !important;
+    }
+}
+
+.btn.btn_default {
+    background-color: $color-blue;
+    color: #fff;
+}
+
+.btn.btn_default:hover,
+.btn.btn_default:focus {
+    background-color: darken($color-blue, 5%);
+}
+
+.btn.btn_air {
+    background: none;
+    color: $color-blue;
+    font-weight: 700;
+}
+
+.form_group {
+    padding: 0;
+    margin: 0 0 1.5em;
+}
+
+.form-control {
+    display: inline-block;
+    padding: .2em 0;
+    margin: .2em 0 0;
+    background: #fff;
+    height: auto;
+    font-size: 1em;
+    font-weight: normal;
+    border-radius: 0;
+    border: 0;
+    border-bottom: 1px solid #d9dbde;
+    transition: border-color ease-in-out .15s;
+    box-shadow: none;
+    outline: 0;
+
+    &:focus {
+        border-color: $color-blue;
+        box-shadow: none;
+        outline: 0;
+    }
+}

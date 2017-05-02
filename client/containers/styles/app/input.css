@@ -1,0 +1,75 @@
+.input_text_label {
+    font-weight: normal;
+    display: block;
+    color: #999;
+    margin: 0;
+    padding: 0;
+    z-index: 1;
+}
+
+.input_group {
+    height: 3.125em;
+}
+
+.form_group .input_text_label {
+    cursor: pointer;
+    pointer-events: none;
+    transform-origin: left center;
+    transform: translate3d(0, 1.9em, 0);
+    transition: all .15s cubic-bezier(.35, 0, .25, 1);
+}
+
+.form_group.has_value .input_text_label {
+    transform: scale(.9);
+}
+
+.form_group.has_error .input_text_label {
+    color: red;
+}
+
+.form_group.has_error .form-control {
+    border-color: red;
+}
+
+.form_group.checkbox_login_remember {
+    padding-top: 1em;
+}
+
+.form_error {
+    font-size: .85em;
+    color: red;
+}
+
+.checkbox_group input[type="checkbox"] {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+    visibility: hidden;
+}
+
+.input_checkbox_label {
+    cursor: pointer;
+}
+
+.input_checkbox_icon {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    vertical-align: top;
+    margin: 0 .6em 0 0;
+    /*background-image: url('../../img/icons/general_icons@2x.png');*/
+    background-repeat: no-repeat;
+    background-position: -2px -28px;
+    background-size: 46px 98px;
+    vertical-align: top;
+
+    input[type="checkbox"]:checked + .input_checkbox_label & {
+        background-position: -2px -2px;
+    }
+}
+
+.input_checkbox_text {
+    font-weight: normal;
+    vertical-align: top;
+    line-height: 1.8em;
+}

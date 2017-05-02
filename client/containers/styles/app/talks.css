@@ -1,0 +1,54 @@
+.talks_list_wrap {
+    
+}
+
+.talks_list {
+    
+}
+
+.talk_wrap {
+    padding: 0;
+    margin: 0;
+}
+
+.talk_info {
+    padding: 7px 16px;
+    border-radius: none;
+    overflow: hidden;
+    word-wrap: break-word;
+    cursor: pointer;
+
+    .talk_date {
+        color: #b3b3b3;
+        font-size: .85em;
+    }
+
+    .talk_photo {
+        width: 48px;
+        height: 48px;
+        border-radius: 50%;
+        overflow: hidden;
+    }
+
+    div.talk_photo {
+        margin-right: 15px;
+    }
+
+    .talk_message_wrap {
+        
+    }
+
+    .talk_message_peer {
+        
+    }
+
+    .talk_message {
+        margin-top: 5px;
+        margin-right: 30px;
+        font-size: .85em;
+        color: grey;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+}

@@ -1,0 +1,19 @@
+.dropdown-menu.dropdown_menu_top_nav {
+    display: block;
+    visibility: hidden;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    transition: opacity 100ms linear, top 100ms linear, visibility 100ms linear;
+
+    .dropdown.open & {
+        visibility: visible;
+        opacity: 1;
+        filter: none;
+        top: 48px;
+        pointer-events: auto;
+    }
+
+    &.dropdown-menu {
+        top: 58px;
+    }
+}

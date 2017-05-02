@@ -1,0 +1,137 @@
+.im_wrap {
+    float: right;
+    width: 69%;
+}
+
+.im_history_message_wrap_short {
+    .im_message_body {
+        margin-left: 57px;    
+    }
+}
+
+.im_service_message_wrap {
+    text-align: center;
+}
+
+.im_service_message {
+    display: block;
+    min-width: 10px;
+    padding: 4px 7px;
+    line-height: 1.4;
+    color: #999;
+    text-align: center;
+    border-radius: 10px;
+    margin: 5px 0;
+}
+
+.im_message_wrap {
+    max-width: 560px;
+    padding: 0 15px 0 15px;
+    margin: 0 auto;
+
+    .im_photo {
+        margin: 0 15px 0 0;
+        width: 42px;
+        height: 42px;
+        border-radius: 50%;
+        overflow: hidden;
+    }
+
+    .im_message_content_wrap {
+        margin: 6px 10px 6px 16px;
+    }
+
+    .im_message_date {
+        color: #adadad;
+        font-size: .85em;
+        padding: 0 0 20px 10px;
+    }
+
+    .im_message_body {
+        display: block;
+        overflow: hidden;
+    }
+
+    .im_message_author_wrap {
+        margin: 1px 0 4px;
+        display: inline-block;
+        color: #3a6d99;
+        font-weight: 700;
+    }
+
+    .im_message_text {
+        word-wrap: break-word;
+        line-height: 150%;
+        white-space: pre-wrap;
+    }
+}
+
+.im_send_panel_wrap {
+    position: relative;
+    max-width: 554px;
+    margin: 0 auto;
+    padding: 10px 15px 21px;
+}
+
+.im_peer_photo {
+    width: 52px;
+    height: 52px;
+    line-height: 52px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+a.im_peer_photo {
+    cursor: pointer;
+    height: 55px;
+}
+
+a.im_peer_photo_to {
+    margin-left: 20px;
+}
+
+a.im_peer_photo_from {
+    margin-right: 20px;
+}
+
+.im_send_form_wrap {
+    height: 95px;
+}
+
+.im_send_form {
+    position: absolute;
+    margin: 0 auto;
+    max-width: 382px;
+    left: 70px;
+    right: 72px;
+}
+
+.composer_rich_textarea {
+    overflow: none;
+    overflow-y: scroll;
+    border-radius: 0;
+    border: 0;
+    box-shadow: none;
+    outline: none;
+    padding: 1px 0;
+    position: relative;
+    margin: 0;
+    min-height: 50px;
+    line-height: 20px;
+    height: auto;
+    box-sizing: border-box;
+}
+
+textarea.im_message_field {
+    font-size: 12px;
+    padding: 6px;
+    min-height: 50px;
+    height: 50px;
+    resize: none;
+}
+
+.im_submit {
+    float: right;
+    margin-top: 5px;
+    margin-left: 10px;
+}

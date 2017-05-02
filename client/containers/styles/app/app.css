@@ -1,0 +1,22 @@
+@import '../variables';
+@import 'btn';
+@import 'chat';
+@import 'footer';
+@import 'form';
+@import 'head';
+@import 'icon';
+@import 'input';
+@import 'login';
+@import 'logo';
+@import 'modal';
+@import 'navbar';
+@import 'page';
+@import 'overrides';
+@import 'dropdown';
+@import 'talks';
+@import 'im';
+
+html, body {
+    font-size: 12px/18px;
+    background: red;
+}

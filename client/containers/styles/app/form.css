@@ -1,0 +1,11 @@
+.form_wrap_login {
+    background: #fff;
+    padding: 30px 40px;
+}
+
+.form_head_description_login {
+    color: #999;
+    margin: .9em 0 1.8em;
+    font-size: .9em;
+    line-height: 1.6em;
+}
