@@ -3,7 +3,7 @@ import { AUTH_SIGNIN, AUTH_SIGNOUT } from '../constants/ActionTypes'
 const initialState = {
   singedIn: false,
   username: null,
-  id: null
+  id: null,
 }
 
 export default function auth(state = initialState, action) {
@@ -11,12 +11,12 @@ export default function auth(state = initialState, action) {
     case AUTH_SIGNIN:
       return {
         ...state,
-        singedIn: true
+        singedIn: true,
       }
     case AUTH_SIGNOUT:
       return {
         ...state,
-        singedIn: false
+        singedIn: false,
       }
     default:
       return state

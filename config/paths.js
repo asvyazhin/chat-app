@@ -1,13 +1,11 @@
-const path = require('path');
-const fs = require('fs');
-const appDirectory = fs.realpathSync(process.cwd());
+const path = require('path')
+const fs = require('fs')
 
-function resolveApp(relativePath) {
-  return path.resolve(appDirectory, relativePath);
-}
+const appDirectory = fs.realpathSync(process.cwd())
+const resolveApp = relativePath => path.resolve(appDirectory, relativePath)
 
 module.exports = {
   CLIENT_SRC: resolveApp('client'),
-  CLIENT_DIST: resolveApp('client/build'),
-  NODE_MODULES: resolveApp('node_modules')
-};
+  CLIENT_DIST: resolveApp('client/dist'),
+  NODE_MODULES: resolveApp('node_modules'),
+}
